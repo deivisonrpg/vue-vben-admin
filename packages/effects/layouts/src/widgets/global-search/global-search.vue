@@ -97,7 +97,7 @@ onMounted(() => {
   <div>
     <Modal
       :fullscreen-button="false"
-      class="w-[600px]"
+      class="w-[600px] !rounded"
       header-class="py-2 border-b"
     >
       <template #title>
@@ -132,7 +132,7 @@ onMounted(() => {
       </template>
     </Modal>
     <div
-      class="md:bg-accent group flex h-8 cursor-pointer items-center gap-3 rounded-2xl border-none bg-none px-2 py-0.5 outline-none"
+      class="md:bg-accent group flex h-8 cursor-pointer items-center gap-3 rounded border-none bg-none px-2 py-0.5 outline-none"
       @click="toggleOpen()"
     >
       <Search
@@ -145,7 +145,7 @@ onMounted(() => {
       </span>
       <span
         v-if="enableShortcutKey"
-        class="bg-background border-foreground/60 text-muted-foreground group-hover:text-foreground relative hidden rounded-sm rounded-r-xl px-1.5 py-1 text-xs leading-none group-hover:opacity-100 md:block"
+        class="bg-background border-foreground/60 text-muted-foreground group-hover:text-foreground relative hidden rounded-sm px-1.5 py-1 text-xs leading-none group-hover:opacity-100 md:block"
       >
         {{ isWindowsOs() ? 'Ctrl' : '⌘' }}
         <kbd>K</kbd>

@@ -1,0 +1,169 @@
+{
+  "title": "Preferências",
+  "subtitle": "Personalize as Preferências & Visualize em Tempo Real",
+  "resetTip": "Dados alterados, clique para redefinir",
+  "resetTitle": "Redefinir Preferências",
+  "resetSuccess": "Preferências redefinidas com sucesso",
+  "appearance": "Aparência",
+  "layout": "Layout",
+  "content": "Conteúdo",
+  "other": "Outros",
+  "wide": "Largo",
+  "compact": "Fixo",
+  "followSystem": "Seguir Sistema",
+  "vertical": "Vertical",
+  "verticalTip": "Modo de menu lateral vertical",
+  "horizontal": "Horizontal",
+  "horizontalTip": "Modo de menu horizontal, todos os menus exibidos no topo",
+  "twoColumn": "Duas Colunas",
+  "twoColumnTip": "Modo de Menu Vertical de Duas Colunas",
+  "mixedMenu": "Menu Misto",
+  "mixedMenuTip": "Menu Vertical e Horizontal Coexistem",
+  "fullContent": "Conteúdo Completo",
+  "fullContentTip": "Exibir apenas o corpo do conteúdo, ocultar todos os menus",
+  "normal": "Normal",
+  "plain": "Simples",
+  "rounded": "Arredondado",
+  "copyPreferences": "Copiar Preferências",
+  "copyPreferencesSuccessTitle": "Cópia realizada com sucesso",
+  "copyPreferencesSuccess": "Cópia realizada com sucesso, por favor, sobrescreva em `src/preferences.ts` no aplicativo",
+  "clearAndLogout": "Limpar Cache & Sair",
+  "mode": "Modo",
+  "general": "Geral",
+  "language": "Idioma",
+  "dynamicTitle": "Título Dinâmico",
+  "watermark": "Marca d'água",
+  "checkUpdates": "Verificação periódica de atualizações",
+  "position": {
+    "title": "Posição das Preferências",
+    "header": "Cabeçalho",
+    "auto": "Automático",
+    "fixed": "Fixo"
+  },
+  "sidebar": {
+    "title": "Barra Lateral",
+    "width": "Largura",
+    "visible": "Exibir Barra Lateral",
+    "collapsed": "Colapsar Menu",
+    "collapsedShowTitle": "Exibir Título do Menu"
+  },
+  "tabbar": {
+    "title": "Barra de Abas",
+    "enable": "Ativar Barra de Abas",
+    "icon": "Exibir Ícone na Barra de Abas",
+    "showMore": "Exibir Botão 'Mais'",
+    "showMaximize": "Exibir Botão de Maximizar",
+    "persist": "Manter Abas",
+    "draggable": "Ativar Ordenação Arrastável",
+    "styleType": {
+      "title": "Estilo das Abas",
+      "chrome": "Chrome",
+      "card": "Cartão",
+      "plain": "Simples",
+      "brisk": "Ágil"
+    },
+    "contextMenu": {
+      "reload": "Recarregar",
+      "close": "Fechar",
+      "pin": "Fixar",
+      "unpin": "Desafixar",
+      "closeLeft": "Fechar Abas à Esquerda",
+      "closeRight": "Fechar Abas à Direita",
+      "closeOther": "Fechar Outras Abas",
+      "closeAll": "Fechar Todas as Abas",
+      "openInNewWindow": "Abrir em Nova Janela",
+      "maximize": "Maximizar",
+      "restoreMaximize": "Restaurar Maximização"
+    }
+  },
+  "navigationMenu": {
+    "title": "Menu de Navegação",
+    "style": "Estilo do Menu de Navegação",
+    "accordion": "Menu Acordeão da Barra Lateral",
+    "split": "Separação do Menu de Navegação",
+    "splitTip": "Quando ativado, a barra lateral exibe o submenu da barra superior"
+  },
+  "breadcrumb": {
+    "title": "Navegação Breadcrumb",
+    "home": "Exibir Botão 'Início'",
+    "enable": "Ativar Breadcrumb",
+    "icon": "Exibir Ícone no Breadcrumb",
+    "background": "Fundo",
+    "style": "Estilo do Breadcrumb",
+    "hideOnlyOne": "Ocultar quando houver apenas um"
+  },
+  "animation": {
+    "title": "Animação",
+    "loading": "Carregamento de Página",
+    "transition": "Transição de Página",
+    "progress": "Progresso da Página"
+  },
+  "theme": {
+    "title": "Tema",
+    "radius": "Raio",
+    "light": "Claro",
+    "dark": "Escuro",
+    "darkSidebar": "Barra Lateral Semi Escura",
+    "darkHeader": "Cabeçalho Semi Escuro",
+    "weakMode": "Modo Fraco",
+    "grayMode": "Modo Cinza",
+    "builtin": {
+      "title": "Temas Embutidos",
+      "default": "Padrão",
+      "violet": "Violeta",
+      "pink": "Rosa",
+      "rose": "Rosa Claro",
+      "skyBlue": "Azul Celeste",
+      "deepBlue": "Azul Profundo",
+      "green": "Verde",
+      "deepGreen": "Verde Escuro",
+      "orange": "Laranja",
+      "yellow": "Amarelo",
+      "zinc": "Zinco",
+      "neutral": "Neutro",
+      "slate": "Ardósia",
+      "gray": "Cinza",
+      "custom": "Personalizado"
+    }
+  },
+  "header": {
+    "title": "Cabeçalho",
+    "visible": "Exibir Cabeçalho",
+    "modeStatic": "Estático",
+    "modeFixed": "Fixo",
+    "modeAuto": "Auto ocultar & Exibir",
+    "modeAutoScroll": "Rolar para Ocultar & Exibir"
+  },
+  "footer": {
+    "title": "Rodapé",
+    "visible": "Exibir Rodapé",
+    "fixed": "Fixo na Parte Inferior"
+  },
+  "copyright": {
+    "title": "Direitos Autorais",
+    "enable": "Ativar Direitos Autorais",
+    "companyName": "Nome da Empresa",
+    "companySiteLink": "Link do Site da Empresa",
+    "date": "Data",
+    "icp": "Número da Licença ICP",
+    "icpLink": "Link do Site ICP"
+  },
+  "shortcutKeys": {
+    "title": "Teclas de Atalho",
+    "global": "Global",
+    "search": "Busca Global",
+    "logout": "Sair",
+    "preferences": "Preferências"
+  },
+  "widget": {
+    "title": "Widget",
+    "globalSearch": "Ativar Busca Global",
+    "fullscreen": "Ativar Tela Cheia",
+    "themeToggle": "Ativar Alternância de Tema",
+    "languageToggle": "Ativar Alternância de Idioma",
+    "notification": "Ativar Notificações",
+    "sidebarToggle": "Ativar Alternância da Barra Lateral",
+    "lockScreen": "Ativar Bloqueio de Tela",
+    "refresh": "Ativar Atualização"
+  }
+}

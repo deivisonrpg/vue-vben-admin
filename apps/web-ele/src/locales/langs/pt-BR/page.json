@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Registrar",
+    "codeLogin": "Login por Código",
+    "qrcodeLogin": "Login por QR Code",
+    "forgetPassword": "Esqueci a Senha"
+  },
+  "dashboard": {
+    "title": "Painel de Controle",
+    "analytics": "Análises",
+    "workspace": "Espaço de Trabalho"
+  }
+}

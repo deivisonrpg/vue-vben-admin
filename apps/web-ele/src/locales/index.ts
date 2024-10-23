@@ -13,6 +13,7 @@ import { preferences } from '@vben/preferences';
 
 import dayjs from 'dayjs';
 import enLocale from 'element-plus/es/locale/lang/en';
+import ptBrLocale from 'element-plus/es/locale/lang/pt-br';
 import defaultLocale from 'element-plus/es/locale/lang/zh-cn';
 
 const elementLocale = ref<Language>(defaultLocale);
@@ -55,6 +56,10 @@ async function loadDayjsLocale(lang: SupportedLanguagesType) {
       locale = await import('dayjs/locale/en');
       break;
     }
+    case 'pt-BR': {
+      locale = await import('dayjs/locale/pt-br');
+      break;
+    }
     case 'zh-CN': {
       locale = await import('dayjs/locale/zh-cn');
       break;
@@ -79,6 +84,10 @@ async function loadElementLocale(lang: SupportedLanguagesType) {
   switch (lang) {
     case 'en-US': {
       elementLocale.value = enLocale;
+      break;
+    }
+    case 'pt-BR': {
+      elementLocale.value = ptBrLocale;
       break;
     }
     case 'zh-CN': {

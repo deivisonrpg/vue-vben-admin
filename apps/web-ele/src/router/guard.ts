@@ -99,8 +99,9 @@ function setupAccessGuard(router: Router) {
     // 当前登录用户拥有的角色标识列表
     const userInfo = userStore.userInfo || (await authStore.fetchUserInfo());
     const userRoles = userInfo.roles ?? [];
+    // const userCodes = accessStore.accessCodes ?? [];
 
-    // 生成菜单和路由
+    // Gerar menus e rotas aqui troco roles por codes
     const { accessibleMenus, accessibleRoutes } = await generateAccess({
       roles: userRoles,
       router,
